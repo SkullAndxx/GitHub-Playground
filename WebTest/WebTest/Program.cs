@@ -19,7 +19,7 @@ namespace WebTest
                 .UseApplicationInsights()
                 .Build();
 
-            host.Run();
+            host.Run(); // Whats this fun thing
         }
     }
 }
